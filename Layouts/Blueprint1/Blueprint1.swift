@@ -70,6 +70,7 @@ struct Blueprint1: View {
                 .padding(.all)
             }
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

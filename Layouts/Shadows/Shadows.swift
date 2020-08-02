@@ -36,6 +36,7 @@ struct Shadows: View {
             HStack {
                 Circle()
                  .fill(Color.blue)
+                    .shadow(color: .green, radius: 6, x: 5, y: 7)
                 Circle()
                  .fill(Color.blue)
                 Circle()
@@ -62,6 +63,7 @@ struct Shadows: View {
 
         }
         .padding(.all)
+
     }
 }
 
