@@ -60,6 +60,8 @@ struct Login: View {
                         .fill(Color.themeForeground))
                     .shadow(radius: shadowRadius, x: xAxis, y: yAxis)
                 })
+
+                Buttons1()
             }
             .padding([.horizontal])
         }
