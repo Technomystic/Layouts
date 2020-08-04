@@ -19,6 +19,7 @@
 		8464451524D5F6DF00E1787C /* ZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451424D5F6DF00E1787C /* ZStacks.swift */; };
 		8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451724D5F6F700E1787C /* Blueprint1.swift */; };
 		8464451B24D5FF7300E1787C /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451A24D5FF7300E1787C /* Shadows.swift */; };
+		846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D540A24DA1B4C00A74AC5 /* Wave.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
 		8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987D24D774B0008C2657 /* CircleButtons.swift */; };
 		84DDE98C24D7567E00640D4F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDE98B24D7567E00640D4F /* LoginScreen.swift */; };
@@ -52,6 +53,7 @@
 		8464451424D5F6DF00E1787C /* ZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacks.swift; sourceTree = "<group>"; };
 		8464451724D5F6F700E1787C /* Blueprint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint1.swift; sourceTree = "<group>"; };
 		8464451A24D5FF7300E1787C /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		846D540A24DA1B4C00A74AC5 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		8476987D24D774B0008C2657 /* CircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtons.swift; sourceTree = "<group>"; };
 		84DDE98B24D7567E00640D4F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		846444EA24D5F64B00E1787C /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				846D540924DA1B3C00A74AC5 /* Shapes */,
 				8476987A24D74E07008C2657 /* Utility */,
 				8464451924D5FF5800E1787C /* Shadows */,
 				8464451624D5F6E700E1787C /* Blueprint1 */,
@@ -172,6 +175,14 @@
 				8476987D24D774B0008C2657 /* CircleButtons.swift */,
 			);
 			path = Shadows;
+			sourceTree = "<group>";
+		};
+		846D540924DA1B3C00A74AC5 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				846D540A24DA1B4C00A74AC5 /* Wave.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 		8476987A24D74E07008C2657 /* Utility */ = {
@@ -292,6 +303,7 @@
 				8464451224D5F6C300E1787C /* VStacks.swift in Sources */,
 				846444F024D5F64B00E1787C /* ContentView.swift in Sources */,
 				8464451524D5F6DF00E1787C /* ZStacks.swift in Sources */,
+				846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */,
 				8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */,
 				84DDE98C24D7567E00640D4F /* LoginScreen.swift in Sources */,
 				8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */,
