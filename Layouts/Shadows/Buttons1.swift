@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct Buttons1: View {
+    @State private var change = false
     var body: some View {
         ZStack {
             VStack {
-                Wave()
+                Wave(yOffset: change ? 0.5 : -0.5)
                     .frame(height: 150)
                  Spacer()
                 VStack {
@@ -40,6 +41,9 @@ struct Buttons1: View {
                         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                     .shadow(color: Color(#colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)), radius: 20, x: 20, y: 20)
                      .shadow(color: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), radius: 20, x: -20, y: -20)
+                        .onTapGesture {
+                            self.change.toggle()
+                    }
                 }
                 Spacer()
             }

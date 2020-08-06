@@ -19,6 +19,7 @@
 		8464451524D5F6DF00E1787C /* ZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451424D5F6DF00E1787C /* ZStacks.swift */; };
 		8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451724D5F6F700E1787C /* Blueprint1.swift */; };
 		8464451B24D5FF7300E1787C /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451A24D5FF7300E1787C /* Shadows.swift */; };
+		846D3BE524DCAAA9004EB3D5 /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */; };
 		846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D540A24DA1B4C00A74AC5 /* Wave.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
 		8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987D24D774B0008C2657 /* CircleButtons.swift */; };
@@ -53,6 +54,7 @@
 		8464451424D5F6DF00E1787C /* ZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacks.swift; sourceTree = "<group>"; };
 		8464451724D5F6F700E1787C /* Blueprint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint1.swift; sourceTree = "<group>"; };
 		8464451A24D5FF7300E1787C /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
 		846D540A24DA1B4C00A74AC5 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		8476987D24D774B0008C2657 /* CircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtons.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				846D540A24DA1B4C00A74AC5 /* Wave.swift */,
+				846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */,
 				84DDE98C24D7567E00640D4F /* LoginScreen.swift in Sources */,
 				8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */,
+				846D3BE524DCAAA9004EB3D5 /* WaveAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
