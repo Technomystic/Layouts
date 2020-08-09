@@ -20,6 +20,7 @@
 		8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451724D5F6F700E1787C /* Blueprint1.swift */; };
 		8464451B24D5FF7300E1787C /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451A24D5FF7300E1787C /* Shadows.swift */; };
 		846BD97D24E0A3700069B634 /* MorphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BD97C24E0A3700069B634 /* MorphView.swift */; };
+		846BD98024E0A8690069B634 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BD97F24E0A8690069B634 /* HeartView.swift */; };
 		846D3BE524DCAAA9004EB3D5 /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */; };
 		846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D540A24DA1B4C00A74AC5 /* Wave.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
@@ -57,6 +58,7 @@
 		8464451724D5F6F700E1787C /* Blueprint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint1.swift; sourceTree = "<group>"; };
 		8464451A24D5FF7300E1787C /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
 		846BD97C24E0A3700069B634 /* MorphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphView.swift; sourceTree = "<group>"; };
+		846BD97F24E0A8690069B634 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 		846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
 		846D540A24DA1B4C00A74AC5 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -191,9 +193,18 @@
 			path = Morph;
 			sourceTree = "<group>";
 		};
+		846BD97E24E0A8590069B634 /* Heart */ = {
+			isa = PBXGroup;
+			children = (
+				846BD97F24E0A8690069B634 /* HeartView.swift */,
+			);
+			path = Heart;
+			sourceTree = "<group>";
+		};
 		846D540924DA1B3C00A74AC5 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				846BD97E24E0A8590069B634 /* Heart */,
 				846BD97B24E0A3510069B634 /* Morph */,
 				8480107124DD891B00FA9BF3 /* Circle */,
 				8480107024DD891000FA9BF3 /* Wave */,
@@ -333,6 +344,7 @@
 				84DDE98E24D76E6300640D4F /* Buttons1.swift in Sources */,
 				8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */,
 				8480107324DD892D00FA9BF3 /* Circle.swift in Sources */,
+				846BD98024E0A8690069B634 /* HeartView.swift in Sources */,
 				846444EE24D5F64B00E1787C /* SceneDelegate.swift in Sources */,
 				8464451224D5F6C300E1787C /* VStacks.swift in Sources */,
 				846444F024D5F64B00E1787C /* ContentView.swift in Sources */,
