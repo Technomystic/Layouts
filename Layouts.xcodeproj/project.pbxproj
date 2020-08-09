@@ -23,6 +23,7 @@
 		846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D540A24DA1B4C00A74AC5 /* Wave.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
 		8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987D24D774B0008C2657 /* CircleButtons.swift */; };
+		8480107324DD892D00FA9BF3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480107224DD892D00FA9BF3 /* Circle.swift */; };
 		84DDE98C24D7567E00640D4F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDE98B24D7567E00640D4F /* LoginScreen.swift */; };
 		84DDE98E24D76E6300640D4F /* Buttons1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDE98D24D76E6300640D4F /* Buttons1.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		846D540A24DA1B4C00A74AC5 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		8476987D24D774B0008C2657 /* CircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtons.swift; sourceTree = "<group>"; };
+		8480107224DD892D00FA9BF3 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		84DDE98B24D7567E00640D4F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		84DDE98D24D76E6300640D4F /* Buttons1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,8 +184,8 @@
 		846D540924DA1B3C00A74AC5 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				846D540A24DA1B4C00A74AC5 /* Wave.swift */,
-				846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */,
+				8480107124DD891B00FA9BF3 /* Circle */,
+				8480107024DD891000FA9BF3 /* Wave */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -194,6 +196,23 @@
 				8476987B24D74E1A008C2657 /* ColorExtension.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8480107024DD891000FA9BF3 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				846D540A24DA1B4C00A74AC5 /* Wave.swift */,
+				846D3BE424DCAAA9004EB3D5 /* WaveAnimation.swift */,
+			);
+			path = Wave;
+			sourceTree = "<group>";
+		};
+		8480107124DD891B00FA9BF3 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				8480107224DD892D00FA9BF3 /* Circle.swift */,
+			);
+			path = Circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +321,7 @@
 				8464451024D5F6B600E1787C /* HStacks.swift in Sources */,
 				84DDE98E24D76E6300640D4F /* Buttons1.swift in Sources */,
 				8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */,
+				8480107324DD892D00FA9BF3 /* Circle.swift in Sources */,
 				846444EE24D5F64B00E1787C /* SceneDelegate.swift in Sources */,
 				8464451224D5F6C300E1787C /* VStacks.swift in Sources */,
 				846444F024D5F64B00E1787C /* ContentView.swift in Sources */,

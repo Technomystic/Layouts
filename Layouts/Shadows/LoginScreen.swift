@@ -8,9 +8,26 @@
 
 import SwiftUI
 
+struct LoginModelView {
+    var email = ""
+    var password = ""
+
+    func isEmpty(_ text: String) -> Bool {
+        return text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+
+    var emailText: String {
+        if !isEmpty(email) {
+            return ""
+        } else {
+            return "Email Enter"
+        }
+    }
+}
+
 struct Login: View {
-    @State private var email = ""
-    @State private var password = ""
+
+    @State private var login = LoginModelView()
 
     private var shadowRadius: CGFloat = 8
     private var xAxis: CGFloat = 8
@@ -31,19 +48,19 @@ struct Login: View {
                     .foregroundColor(Color.themeForeground)
                     .shadow(radius: shadowRadius, x: xAxis, y: yAxis)
 
-                Text("Login Screen")
+                Text("Sai Natraj Masala")
                     .font(.largeTitle)
                     .foregroundColor(Color.themeForeground)
                 .shadow(radius: shadowRadius, x: xAxis, y: yAxis)
 
-                TextField("Name", text: $email)
+                TextField(login.emailText, text: $login.email)
                 .padding()
                     .background(Capsule()
                         .fill(Color.themeForeground)
                         .opacity(0.6)
                         .shadow(radius: shadowRadius, x: xAxis, y: yAxis))
 
-                SecureField("Password", text: $password)
+                SecureField("Password", text: $login.password)
                 .padding()
                 .background(Capsule()
                         .fill(Color.themeForeground)
@@ -60,8 +77,6 @@ struct Login: View {
                         .fill(Color.themeForeground))
                     .shadow(radius: shadowRadius, x: xAxis, y: yAxis)
                 })
-
-                Buttons1()
             }
             .padding([.horizontal])
         }
