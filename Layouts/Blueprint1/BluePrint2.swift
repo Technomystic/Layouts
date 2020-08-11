@@ -38,6 +38,7 @@ struct BluePrint2: View {
 
                 }
 
+
                 VStack {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 20) {
@@ -60,21 +61,25 @@ struct BluePrint2: View {
                         }
                     }
                 }
-                Spacer()
 
-                Group {
-                    Rectangle()
-                        .fill(Color.purple)
-                        .opacity(0.5)
-                        .frame(maxWidth: .infinity, maxHeight: 200)
-                    Rectangle()
-                        .fill(Color.purple)
-                        .opacity(0.5)
-                        .frame(maxWidth: .infinity, maxHeight: 200)
+                VStack {
+                    ScrollView(.vertical, showsIndicators: false) {
+                        VStack {
+                            Rectangle()
+                                .fill(Color.purple)
+                                .opacity(0.5)
+                                .frame(width: 400 , height: 300)
+
+                            Rectangle()
+                                .fill(Color.orange)
+                                .opacity(0.5)
+                                .frame(width: 400 , height: 300)
+                        }
+                    }
                 }
 
+                Spacer()
             }
-            Spacer()
             .padding()
         }
     }
