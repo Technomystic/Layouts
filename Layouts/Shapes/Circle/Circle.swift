@@ -26,12 +26,12 @@ struct Circle1: Shape {
 
         path.move(to: CGPoint(x: rect.maxX * 0.50, y: rect.minY))
 
-//        path.addCurve(to: CGPoint(x: rect.maxX * 0.50, y: rect.minY), control1: CGPoint(x: rect.minX + 50, y: -rect.minY - 250), control2: CGPoint(x: rect.midX + 50, y: rect.minY))
-//        path.closeSubpath()
+        path.addCurve(to: CGPoint(x: rect.maxX * 0.50, y: rect.minY), control1: CGPoint(x: rect.minX + 50, y: -rect.minY - 250), control2: CGPoint(x: rect.midX + 50, y: rect.minY))
+        path.closeSubpath()
 
-//        path.addCurve(to: CGPoint(x: rect.maxX * 0.50, y: rect.minY ), control1: CGPoint(x: rect.minX + 50, y: rect.minY + 250), control2: CGPoint(x: rect.midX + 50, y: yOffset))
-
-        path.addEllipse(in: CGRect(x: 120, y: 0, width: 150, height: 150))
+        path.addCurve(to: CGPoint(x: rect.maxX * 0.50, y: rect.minY ), control1: CGPoint(x: rect.minX + 50, y: rect.minY + 250), control2: CGPoint(x: rect.midX + 50, y: yOffset))
+//
+//        path.addEllipse(in: CGRect(x: 120, y: 0, width: 150, height: 150))
         path.closeSubpath()
         
         return path
