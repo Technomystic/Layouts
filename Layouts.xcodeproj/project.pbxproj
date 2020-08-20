@@ -25,6 +25,7 @@
 		846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D540A24DA1B4C00A74AC5 /* Wave.swift */; };
 		846D904624E1D2FE00749D6A /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D904524E1D2FE00749D6A /* EyeView.swift */; };
 		846D904B24E1EE7A00749D6A /* BluePrint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D904A24E1EE7A00749D6A /* BluePrint2.swift */; };
+		846F949124EF15D50032AB35 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F949024EF15D50032AB35 /* RectangleView.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
 		8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987D24D774B0008C2657 /* CircleButtons.swift */; };
 		8480107324DD892D00FA9BF3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480107224DD892D00FA9BF3 /* Circle.swift */; };
@@ -66,6 +67,7 @@
 		846D540A24DA1B4C00A74AC5 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		846D904524E1D2FE00749D6A /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		846D904A24E1EE7A00749D6A /* BluePrint2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePrint2.swift; sourceTree = "<group>"; };
+		846F949024EF15D50032AB35 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		8476987D24D774B0008C2657 /* CircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtons.swift; sourceTree = "<group>"; };
 		8480107224DD892D00FA9BF3 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		846D540924DA1B3C00A74AC5 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				846F948F24EF15BD0032AB35 /* Rectangle */,
 				846D904424E1D2EC00749D6A /* Eye */,
 				846BD97E24E0A8590069B634 /* Heart */,
 				846BD97B24E0A3510069B634 /* Morph */,
@@ -226,6 +229,14 @@
 				846D904524E1D2FE00749D6A /* EyeView.swift */,
 			);
 			path = Eye;
+			sourceTree = "<group>";
+		};
+		846F948F24EF15BD0032AB35 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				846F949024EF15D50032AB35 /* RectangleView.swift */,
+			);
+			path = Rectangle;
 			sourceTree = "<group>";
 		};
 		8476987A24D74E07008C2657 /* Utility */ = {
@@ -363,6 +374,7 @@
 				84E64F0424E885A700036465 /* DoubleCircleView.swift in Sources */,
 				8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */,
 				8480107324DD892D00FA9BF3 /* Circle.swift in Sources */,
+				846F949124EF15D50032AB35 /* RectangleView.swift in Sources */,
 				846D904B24E1EE7A00749D6A /* BluePrint2.swift in Sources */,
 				846BD98024E0A8690069B634 /* HeartView.swift in Sources */,
 				846444EE24D5F64B00E1787C /* SceneDelegate.swift in Sources */,
