@@ -20,6 +20,15 @@ struct RectangleView: View {
             .onTapGesture {
                 self.morph.toggle()
             }
+
+            Rectangle()
+                .fill(morph ? Color.red : Color.blue)
+                .frame(width: morph ? 100 : 50, height: morph ? 100 : 50)
+                .cornerRadius(morph ? 0 : 50)
+                .animation(.spring(response: 1, dampingFraction: 0.5, blendDuration: 0.5))
+                .onTapGesture {
+                    self.morph.toggle()
+            }
         }
     }
 }
