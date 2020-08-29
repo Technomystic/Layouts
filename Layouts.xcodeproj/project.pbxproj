@@ -28,6 +28,7 @@
 		846D904624E1D2FE00749D6A /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D904524E1D2FE00749D6A /* EyeView.swift */; };
 		846D904B24E1EE7A00749D6A /* BluePrint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D904A24E1EE7A00749D6A /* BluePrint2.swift */; };
 		846F949124EF15D50032AB35 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F949024EF15D50032AB35 /* RectangleView.swift */; };
+		84719CCD24FAFD1E0029B4B5 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84719CCC24FAFD1E0029B4B5 /* ProgressBarView.swift */; };
 		8476987C24D74E1A008C2657 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987B24D74E1A008C2657 /* ColorExtension.swift */; };
 		8476987E24D774B0008C2657 /* CircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476987D24D774B0008C2657 /* CircleButtons.swift */; };
 		8480107324DD892D00FA9BF3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480107224DD892D00FA9BF3 /* Circle.swift */; };
@@ -72,6 +73,7 @@
 		846D904524E1D2FE00749D6A /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		846D904A24E1EE7A00749D6A /* BluePrint2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePrint2.swift; sourceTree = "<group>"; };
 		846F949024EF15D50032AB35 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		84719CCC24FAFD1E0029B4B5 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		8476987B24D74E1A008C2657 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		8476987D24D774B0008C2657 /* CircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtons.swift; sourceTree = "<group>"; };
 		8480107224DD892D00FA9BF3 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 		846D540924DA1B3C00A74AC5 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				84719CCB24FAFD070029B4B5 /* CircularProgressBar */,
 				8448FD4A24F861BA002DBB08 /* TabView */,
 				846D87F124F701CD00837255 /* Signal */,
 				846F948F24EF15BD0032AB35 /* Rectangle */,
@@ -259,6 +262,14 @@
 				846F949024EF15D50032AB35 /* RectangleView.swift */,
 			);
 			path = Rectangle;
+			sourceTree = "<group>";
+		};
+		84719CCB24FAFD070029B4B5 /* CircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				84719CCC24FAFD1E0029B4B5 /* ProgressBarView.swift */,
+			);
+			path = CircularProgressBar;
 			sourceTree = "<group>";
 		};
 		8476987A24D74E07008C2657 /* Utility */ = {
@@ -401,6 +412,7 @@
 				846BD98024E0A8690069B634 /* HeartView.swift in Sources */,
 				846444EE24D5F64B00E1787C /* SceneDelegate.swift in Sources */,
 				8448FD4E24F862BD002DBB08 /* TopTabView.swift in Sources */,
+				84719CCD24FAFD1E0029B4B5 /* ProgressBarView.swift in Sources */,
 				8464451224D5F6C300E1787C /* VStacks.swift in Sources */,
 				846444F024D5F64B00E1787C /* ContentView.swift in Sources */,
 				846D87F324F701E400837255 /* SignalView.swift in Sources */,
