@@ -15,9 +15,6 @@
 		846444F524D5F64D00E1787C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846444F424D5F64D00E1787C /* Preview Assets.xcassets */; };
 		846444F824D5F64D00E1787C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846444F624D5F64D00E1787C /* LaunchScreen.storyboard */; };
 		8464450324D5F64D00E1787C /* LayoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464450224D5F64D00E1787C /* LayoutsTests.swift */; };
-		8464451024D5F6B600E1787C /* HStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464450F24D5F6B600E1787C /* HStacks.swift */; };
-		8464451224D5F6C300E1787C /* VStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451124D5F6C300E1787C /* VStacks.swift */; };
-		8464451524D5F6DF00E1787C /* ZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451424D5F6DF00E1787C /* ZStacks.swift */; };
 		8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451724D5F6F700E1787C /* Blueprint1.swift */; };
 		8464451B24D5FF7300E1787C /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464451A24D5FF7300E1787C /* Shadows.swift */; };
 		846BD97D24E0A3700069B634 /* MorphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BD97C24E0A3700069B634 /* MorphView.swift */; };
@@ -60,9 +57,6 @@
 		846444FE24D5F64D00E1787C /* LayoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8464450224D5F64D00E1787C /* LayoutsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsTests.swift; sourceTree = "<group>"; };
 		8464450424D5F64D00E1787C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8464450F24D5F6B600E1787C /* HStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStacks.swift; sourceTree = "<group>"; };
-		8464451124D5F6C300E1787C /* VStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStacks.swift; sourceTree = "<group>"; };
-		8464451424D5F6DF00E1787C /* ZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacks.swift; sourceTree = "<group>"; };
 		8464451724D5F6F700E1787C /* Blueprint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint1.swift; sourceTree = "<group>"; };
 		8464451A24D5FF7300E1787C /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
 		846BD97C24E0A3700069B634 /* MorphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphView.swift; sourceTree = "<group>"; };
@@ -133,9 +127,6 @@
 				8476987A24D74E07008C2657 /* Utility */,
 				8464451924D5FF5800E1787C /* Shadows */,
 				8464451624D5F6E700E1787C /* Blueprint1 */,
-				8464451324D5F6D200E1787C /* ZStacks */,
-				8464450E24D5F69900E1787C /* HStacks */,
-				8464450D24D5F67C00E1787C /* VStacks */,
 				846444EB24D5F64B00E1787C /* AppDelegate.swift */,
 				846444ED24D5F64B00E1787C /* SceneDelegate.swift */,
 				846444EF24D5F64B00E1787C /* ContentView.swift */,
@@ -162,30 +153,6 @@
 				8464450424D5F64D00E1787C /* Info.plist */,
 			);
 			path = LayoutsTests;
-			sourceTree = "<group>";
-		};
-		8464450D24D5F67C00E1787C /* VStacks */ = {
-			isa = PBXGroup;
-			children = (
-				8464451124D5F6C300E1787C /* VStacks.swift */,
-			);
-			path = VStacks;
-			sourceTree = "<group>";
-		};
-		8464450E24D5F69900E1787C /* HStacks */ = {
-			isa = PBXGroup;
-			children = (
-				8464450F24D5F6B600E1787C /* HStacks.swift */,
-			);
-			path = HStacks;
-			sourceTree = "<group>";
-		};
-		8464451324D5F6D200E1787C /* ZStacks */ = {
-			isa = PBXGroup;
-			children = (
-				8464451424D5F6DF00E1787C /* ZStacks.swift */,
-			);
-			path = ZStacks;
 			sourceTree = "<group>";
 		};
 		8464451624D5F6E700E1787C /* Blueprint1 */ = {
@@ -401,7 +368,6 @@
 			files = (
 				846444EC24D5F64B00E1787C /* AppDelegate.swift in Sources */,
 				8464451B24D5FF7300E1787C /* Shadows.swift in Sources */,
-				8464451024D5F6B600E1787C /* HStacks.swift in Sources */,
 				84DDE98E24D76E6300640D4F /* Buttons1.swift in Sources */,
 				846D904624E1D2FE00749D6A /* EyeView.swift in Sources */,
 				84E64F0424E885A700036465 /* DoubleCircleView.swift in Sources */,
@@ -413,10 +379,8 @@
 				846444EE24D5F64B00E1787C /* SceneDelegate.swift in Sources */,
 				8448FD4E24F862BD002DBB08 /* TopTabView.swift in Sources */,
 				84719CCD24FAFD1E0029B4B5 /* ProgressBarView.swift in Sources */,
-				8464451224D5F6C300E1787C /* VStacks.swift in Sources */,
 				846444F024D5F64B00E1787C /* ContentView.swift in Sources */,
 				846D87F324F701E400837255 /* SignalView.swift in Sources */,
-				8464451524D5F6DF00E1787C /* ZStacks.swift in Sources */,
 				846D540B24DA1B4C00A74AC5 /* Wave.swift in Sources */,
 				846BD97D24E0A3700069B634 /* MorphView.swift in Sources */,
 				8464451824D5F6F700E1787C /* Blueprint1.swift in Sources */,
